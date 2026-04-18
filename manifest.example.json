@@ -1,0 +1,27 @@
+{
+  "plugins": [
+    {
+      "slug": "my-plugin-a",
+      "name": "My Plugin A",
+      "description": "Beispielplugin aus GitHub Release ZIP",
+      "owner": "dein-github-name",
+      "repo": "my-plugin-a",
+      "main_file": "my-plugin-a.php",
+      "version_strategy": "release",
+      "zip_source": "release",
+      "release_asset": "my-plugin-a.zip",
+      "homepage": "https://github.com/dein-github-name/my-plugin-a"
+    },
+    {
+      "slug": "my-plugin-b",
+      "name": "My Plugin B",
+      "description": "Beispielplugin via Tags",
+      "owner": "dein-github-name",
+      "repo": "my-plugin-b",
+      "main_file": "my-plugin-b.php",
+      "version_strategy": "tags",
+      "zip_source": "tag",
+      "homepage": "https://github.com/dein-github-name/my-plugin-b"
+    }
+  ]
+}
