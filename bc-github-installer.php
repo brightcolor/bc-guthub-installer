@@ -2,8 +2,8 @@
 /**
  * Plugin Name: BC GitHub Plugin Installer
  * Plugin URI: https://github.com/brightcolor
- * Description: Installiert und aktualisiert eigene GitHub-Plugins über eine zentrale Registry im WordPress-Backend.
- * Version: 1.0.0
+ * Description: Install and update your own GitHub-hosted plugins via a central registry.
+ * Version: 1.0.2
  * Author: Bright Color
  * Author URI: https://github.com/brightcolor
  * Text Domain: bc-github-installer
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-define( 'BCGI_VERSION', '1.0.0' );
+define( 'BCGI_VERSION', '1.0.2' );
 define( 'BCGI_PLUGIN_FILE', __FILE__ );
 define( 'BCGI_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'BCGI_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
